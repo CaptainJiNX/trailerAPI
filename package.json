@@ -1,0 +1,22 @@
+{
+  "name": "trailer-api",
+  "version": "1.0.0",
+  "description": "Simple trailer url lookup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -R spec ./test/test.js"
+  },
+  "author": "Roger Wilson",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.32",
+    "express": "^4.13.0",
+    "request": "^2.58.0",
+    "xml2js": "^0.4.9"
+  },
+  "devDependencies": {
+    "should": "^7.0.1",
+    "supertest": "^1.0.1"
+  }
+}
